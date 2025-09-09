@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Esayi Storage Systems - Leading Warehousing & Logistics Solutions in Saudi Arabia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #2c3e50;
+        }
+        .hero {
+            background-color: #1a2980; /* Updated to a solid dark blue color */
+            background-size: cover;
+            background-position: center;
+        }
+        .text-glow {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+        }
+        .bg-gradient-blue {
+            background-image: linear-gradient(to right, #1a2980, #2c3e50);
+        }
+        .card {
+            transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .animated-stat {
+            font-variant-numeric: tabular-nums;
+        }
+        .icon-service svg {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover .icon-service svg {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-xl fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#" class="text-3xl font-extrabold text-blue-800 tracking-wide">Al Esayi Storage</a>
+            </div>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300 font-semibold">About Us</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600 transition duration-300 font-semibold">Services</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600 transition duration-300 font-semibold">Projects</a>
+                <a href="#contact" class="text-white bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-semibold shadow-md transition duration-300">Contact Us</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-inner pb-4">
+            <nav class="flex flex-col items-center space-y-4">
+                <a href="#about" class="block w-full text-center py-3 text-gray-600 hover:bg-gray-100 transition duration-300">About Us</a>
+                <a href="#services" class="block w-full text-center py-3 text-gray-600 hover:bg-gray-100 transition duration-300">Services</a>
+                <a href="#projects" class="block w-full text-center py-3 text-gray-600 hover:bg-gray-100 transition duration-300">Projects</a>
+                <a href="#contact" class="block w-full text-center py-3 text-white bg-blue-600 hover:bg-blue-700 transition duration-300">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section class="hero text-white h-[60vh] md:h-screen flex items-center justify-center text-center px-4">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-glow">
+                    Building the Future of Logistics, Today.
+                </h1>
+                <p class="text-lg md:text-2xl font-light mb-8 max-w-2xl mx-auto text-glow">
+                    As a proud unit of the Mohammed Ali Alesayi Group, we are the pioneering force behind Saudi Arabia's most advanced and innovative warehousing and storage solutions.
+                </p>
+                <a href="#services" class="bg-white text-blue-800 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105">
+                    Explore Our Solutions
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center justify-center gap-12">
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <span class="text-sm font-semibold text-blue-600 uppercase tracking-wide">Our Legacy Since 1993</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">A History of Excellence, A Vision for the Future</h2>
+                    <p class="text-gray-700 text-lg mb-4 leading-relaxed">
+                        For over 30 years, Alesayi Storage Systems has been at the forefront of the materials handling and warehousing industry in Saudi Arabia. As a key business unit of the Mohammed Ali Alesayi Group, we leverage our deep industry knowledge to design and engineer bespoke storage solutions. Our mission is to provide world-class, innovative concepts that shape the future of intralogistics.
+                    </p>
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        We are a strategic partner committed to supporting Saudi Arabia's <span class="font-bold text-blue-800">Vision 2030</span> by transforming the Kingdom into a global logistics hub. Our team is driven by core values of Spirit, Pride, Determination, Commitment, Passion, and Integrity, ensuring we deliver exceptional results for our clients every day.
+                    </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <img src="https://placehold.co/800x600/f3f4f6/333333?text=Al+Esayi+Warehouse+Interior" alt="Al Esayi Storage Systems company overview" class="rounded-2xl shadow-xl transform transition duration-500 hover:scale-105">
+                </div>
+            </div>
+            
+            <div class="container mx-auto px-6 md:px-12 mt-16 md:mt-24">
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+                    <div class="lg:w-1/2">
+                        <!-- Corrected image source for the uploaded file -->
+                        <img src="images/regional_manager.jpg" alt="Khazi Mohammed Atiyuddin, Regional Manager" class="rounded-2xl shadow-xl transform transition duration-500 hover:scale-105">
+                    </div>
+                    <div class="lg:w-1/2 text-center lg:text-left">
+                        <h3 class="text-3xl md:text-4xl font-bold mt-2 mb-2">Khazi Mohammed Atiyuddin</h3>
+                        <p class="text-blue-600 text-xl md:text-2xl font-semibold mb-4">Regional Manager</p>
+                        <p class="text-gray-700 text-lg leading-relaxed">
+                            With over 30 years of dedicated service to Al Esayi Storage Systems, Khazi Mohammed Atiyuddin embodies the core values of our company. His visionary leadership and deep commitment have been instrumental in our growth, transforming us into a powerhouse within the industry. Mr. Atiyuddin's unwavering passion for excellence and his profound understanding of logistics have not only driven our success but have also inspired every member of our team to strive for greatness. His contributions are a testament to his expertise and his role as a true leader in the field.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="text-center mb-12">
+                    <span class="text-sm font-semibold text-blue-600 uppercase tracking-wide">What We Offer</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">Comprehensive Warehousing Solutions</h2>
+                    <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
+                        We provide an extensive portfolio of cutting-edge solutions designed to optimize your storage, enhance efficiency, and streamline your supply chain operations.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card 1: Racking & Shelving -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10m-4-10h4m-4 0h16v10h-4M4 7h16m0 0a2 2 0 012 2v6a2 2 0 01-2 2h-4m-7 0a7 7 0 100-14 7 7 0 000 14z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Racking & Shelving</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            A wide array of solutions including pallet racking systems, shelving, and customized storage to maximize space and ensure safety.
+                        </p>
+                    </div>
+                    <!-- Service Card 2: Automation Projects -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Automation Projects</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Implementing advanced automation with Pallet Flow, Shuttle, and Mobile Racking systems, along with ASRS (Automated Storage/Retrieval Systems).
+                        </p>
+                    </div>
+                    <!-- Service Card 3: E-commerce Solutions -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.018A9.955 9.955 0 0112 2a9.96 9.96 0 015.618 17.982c-.22.18-.465.344-.73.493l-.916-.481a8.046 8.046 0 00-6.762 0l-.916.48c-.265-.149-.51-.313-.73-.493A9.956 9.956 0 014 12c0-5.523 4.477-10 10-10z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">E-commerce Solutions</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Providing efficient e-commerce fulfillment with state-of-the-art sorter and conveyor solutions to handle complex logistics needs.
+                        </p>
+                    </div>
+                    <!-- New Service Card 4: Logistics Consulting -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M15 12h.01"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Logistics Consulting</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We provide expert analysis and strategic planning to optimize your supply chain efficiency and reduce operational costs.
+                        </p>
+                    </div>
+                    <!-- New Service Card 5: WMS Integration -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">WMS Integration</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Seamlessly integrate advanced Warehouse Management Systems to enhance inventory accuracy and operational control.
+                        </p>
+                    </div>
+                    <!-- New Service Card 6: Safety & Maintenance -->
+                    <div class="card bg-gray-100 p-8 rounded-2xl shadow-md text-center">
+                        <div class="bg-gradient-blue text-white p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl icon-service">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.525.32.96.697 1.314 1.155.011.015.021.03.033.045m-4.04 1.258l-1.396-1.396M10 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Safety & Maintenance</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Ensuring the long-term integrity of your infrastructure with comprehensive safety audits and maintenance services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Project Showcase Section (NEW) -->
+        <section class="py-16 md:py-24 bg-gray-200">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="text-center mb-12">
+                    <span class="text-sm font-semibold text-blue-600 uppercase tracking-wide">Our Work in Action</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">Transforming Warehouses Across the Kingdom</h2>
+                    <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
+                        We design and install advanced storage systems that meet the unique demands of modern logistics. Here's a glimpse into some of our custom solutions.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/1a2980/ffffff?text=Automated+Storage+System" alt="Automated Storage and Retrieval System" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Automated Pallet Shuttle System</h4>
+                            <p class="text-gray-600">High-density automated solution for efficient and rapid pallet handling, ideal for cold storage and high-volume operations.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/2c3e50/ffffff?text=High-Bay+Racking" alt="High-Bay Racking System" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">High-Bay Racking</h4>
+                            <p class="text-gray-600">Maximizing vertical space for businesses with limited floor area, providing a cost-effective solution for increased capacity.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/1a2980/ffffff?text=Conveyor+and+Sorter" alt="Conveyor and Sorter for E-commerce" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">E-commerce Fulfillment Center</h4>
+                            <p class="text-gray-600">Integrated conveyor and sorter systems to handle complex order fulfillment with speed and accuracy.</p>
+                        </div>
+                    </div>
+                    <!-- New Project 1 -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Distribution+Center" alt="Distribution Center for a Major Retailer" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Distribution Center for a Major Retailer</h4>
+                            <p class="text-gray-600">A multi-level racking system with integrated conveyor belts for a leading retail brand, enhancing order picking efficiency.</p>
+                        </div>
+                    </div>
+                    <!-- New Project 2 -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/1a2980/ffffff?text=Automotive+Warehouse" alt="Automotive Parts Warehouse" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Automotive Parts Warehouse</h4>
+                            <p class="text-gray-600">Custom cantilever racking and flow systems for the efficient storage and retrieval of a wide range of automotive components.</p>
+                        </div>
+                    </div>
+                    <!-- New Project 3 -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden card">
+                        <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Cold+Storage+Facility" alt="Cold Storage Facility for a Food & Beverage Client" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold mb-2">Cold Storage Facility</h4>
+                            <p class="text-gray-600">A high-density automated cold storage solution designed to maintain optimal temperatures for perishable goods.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Projects Section -->
+        <section id="projects" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="text-center mb-12">
+                    <span class="text-sm font-semibold text-blue-600 uppercase tracking-wide">Our Proven Success</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">Milestones & Achievements</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-8 rounded-2xl shadow-md card">
+                        <h3 class="text-5xl md:text-6xl font-extrabold text-blue-600 mb-2 animated-stat" data-target="35">0</h3>
+                        <p class="text-xl md:text-2xl text-gray-700">Years of Experience</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md card">
+                        <h3 class="text-5xl md:text-6xl font-extrabold text-blue-600 mb-2 animated-stat" data-target="250">0</h3>
+                        <p class="text-xl md:text-2xl text-gray-700">Major Projects Delivered</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-md card">
+                        <h3 class="text-5xl md:text-6xl font-extrabold text-blue-600 mb-2 animated-stat" data-target="2500000">0</h3>
+                        <p class="text-xl md:text-2xl text-gray-700">SQM of Warehouse Space</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="py-16 md:py-24 bg-gradient-blue text-white">
+            <div class="container mx-auto px-6 md:px-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Build Your Future Warehouse</h2>
+                <p class="text-lg md:text-xl font-light mb-8 max-w-2xl mx-auto">
+                    Ready to transform your logistics? Fill out the form below to get in touch with our experts.
+                </p>
+                <form class="max-w-xl mx-auto space-y-6 text-left">
+                    <div>
+                        <label for="name" class="block text-lg font-semibold mb-2">Full Name</label>
+                        <input type="text" id="name" class="w-full p-4 rounded-xl text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-semibold mb-2">Email Address</label>
+                        <input type="email" id="email" class="w-full p-4 rounded-xl text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Your Email" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-semibold mb-2">Message</label>
+                        <textarea id="message" rows="5" class="w-full p-4 rounded-xl text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-white text-blue-800 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Al Esayi Storage Systems. All Rights Reserved. A proud business unit of Mohammed Ali Alesayi Group.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Simple scroll to section logic for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.getElementById('mobile-menu').classList.add('hidden');
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80, // Offset for fixed header
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Simple stat counter animation
+        function animateStats() {
+            const stats = document.querySelectorAll('.animated-stat');
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = entry.target;
+                        const targetValue = parseInt(target.getAttribute('data-target'), 10);
+                        let currentValue = 0;
+                        const duration = 2000;
+                        const increment = targetValue / (duration / 16); // 60fps
+
+                        const updateCounter = setInterval(() => {
+                            currentValue += increment;
+                            if (currentValue >= targetValue) {
+                                target.textContent = targetValue.toLocaleString();
+                                clearInterval(updateCounter);
+                            } else {
+                                target.textContent = Math.ceil(currentValue).toLocaleString();
+                            }
+                        }, 16);
+                        observer.unobserve(target);
+                    }
+                });
+            }, { threshold: 0.5 }); // Trigger when 50% of element is visible
+
+            stats.forEach(stat => observer.observe(stat));
+        }
+
+        window.onload = function() {
+            animateStats();
+        }
+    </script>
+</body>
+</html>
